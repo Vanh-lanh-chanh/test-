@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(213, 245, 242);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    /* đưa ra giữa */
+    display: flex;
+    justify-content: center;
+}
+
+section{
+min-width: 500px;
+background-color:white ;
+margin-top: 20px;
+border-radius: 14px;
+padding: 40px;
+/* tạo bóng */
+box-shadow: 0px 3px 14px 3px rgb(67, 130, 219);
+}
+
+.info{
+    display: flex;
+    flex-direction: column; 
+}
+
+label{
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+input{
+    margin-top: 20px;
+    /* tự commend lại để tìm điều khác biệt */
+    border: none;
+    /* tạo một dòng màu đen bên dưới */
+    border-bottom: 1px solid black;
+    /* TỰ COMMEND LẠI ĐỂ TÌM SỰ KHÁC BT CHỨ KO BT GIẢI THÍCH */
+    outline: none;
+} 
+button{
+    /* khi đưa chuột vào nút chuottj sẽ biến thành nút ngón tay */
+    cursor: pointer;
+    /* cách di chuyển nút / align self là  */
+    align-self: flex-end;
+    background-color: rgb(71, 234, 249);
+    border: 10px;
+    margin-top: 15px;
+    width: 70px;
+    padding: 10px 20px 10px 20px;
+    width: 100px;
+    border-radius: 20px;
+    color: rgba(17, 98, 139, 0.932);
+    font-weight: 600;
+
+}
+button:hover{
+    color: rgb(27, 9, 128);
+    background-color: rgb(115, 153, 240);
+}
+h1{
+    text-align: center;
+    color: rgb(0, 94, 255);
+}
+img
+{
+    width: 50px;
+    height: 40px;
+    margin-right:30px;
+    margin-top: 30px;
+}
+body{
+    background-image: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/screen-shot-2018-07-11-at-5-06-55-pm-1531343396.png');
+}

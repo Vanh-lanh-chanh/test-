@@ -1,0 +1,106 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+img{
+    width: 480px;
+    height: 600px;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-left: 80px;
+    border: 2px solid rgb(27, 167, 255);
+}
+body{
+    font-family: 'Roboto', sans-serif; ;
+}
+.container{
+    display: flex;
+    gap: 40px;
+
+}
+.col{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.container-fluid{
+    border-bottom: 3.5px solid #4245fc;
+    border-top: 3.5px solid  #6c7ee1  ;
+    border-left:5px solid #2b2eec ;
+    border-right:5px solid  #2039c7    ;
+    padding: 2px;
+    background: rgb(242, 250, 255) ;
+    color: black;
+}
+
+footer img{
+    width:200px;
+    height: 200px;
+   margin-top: 10px;
+}
+footer col{
+    margin-left: 20px;
+}
+.col svg{
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+footer{
+    background-color: #cfd6fd ;
+}
+.size-main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: white;
+    font-weight: 600;
+}
+.size-main  button{
+     background-color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 10px 20px ;
+     border-radius: 10px;
+     font-weight: 500;
+}
+button:hover{
+    background-color: grey;
+    color: white;
+    transition: all .2s linear;
+}
+.button-2 button{
+    padding: 10px 150px;
+    background-color: rgb(119, 110, 110);
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    border-radius: 10px;
+    font-size:18px;
+    border: 1px solid  ;
+    
+
+}
+.button-2 button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(17, 16, 16);
+    /*   tạo hiệu ứng  */
+    transition: all .2s linear;
+}
+
+.navbar {
+    padding: 0;
+}
+.container-fluid a{
+    color: #625ece;
+    font-weight: 600;
+}
+
+.row {
+    margin-bottom: 0rem!important;
+}

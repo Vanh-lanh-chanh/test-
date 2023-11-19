@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+.container-fluid{
+    border-bottom: 3.5px solid #42e0fc;
+    border-top: 3.5px solid  #6c7ee1  ;
+    border-left:5px solid #2b2eec ;
+    border-right:5px solid  #2039c7    ;
+    padding: 7px;
+    background: rgb(173, 219, 248) ;    
+}
+
+.container-fluid a{
+    color: #201c93;
+}
+
+.button button :hover{
+    color:blue;
+    background-color: rgb(64, 124, 237);
+
+}
+body{
+    font-family: 'Roboto', sans-serif;
+   
+}
+.navbar {
+    padding: 0;
+}
+/* .carousel {
+height: 500px;
+width:700px;
+justify-content: center;
+} */
+#flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    
+    
+  }
+.card{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.navbar-brand img{
+    width: 60px;
+    height: 60px;
+
+}
+button{
+    background-color: rgb(170, 165, 165);
+    padding: 6px 30px 6px 30px;
+    border: 0px;
+    border-radius: 25px ;
+    color: white;
+    margin-left: 10px;
+}
+button:hover{
+    color: grey;
+    background-color: white;
+    border: 1px solid black;
+    transition: all .2s linear;
+
+
+
+}
+h2{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 1px;
+    color: rgb(34, 28, 206);
+}
+footer img{
+    width:200px;
+    height: 200px;
+   margin-top: 10px;
+}
+footer col{
+    margin-left: 20px;
+}
+.col svg{
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+footer{
+    background-color: #cfd6fd ;
+    margin: 0px;
+}
+
+.carousel slide carousel-fade button{
+    margin-left: 300px;
+
+}
+.icon{
+    position: absolute;
+    top: 50%;
+    display: flex;
+    justify-content: space-between;
+    left: 0;
+    right: 0;
+}
+
+
+.carousel-inner{
+    position: relative;
+}
+.carousel-item{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 999;
+
+}
+.active{
+    z-index: 0 !important;
+}
+.row {
+        margin-bottom: 0rem!important;
+}
+

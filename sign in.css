@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(213, 245, 242);
+    font-family: 'AR One Sans', sans-serif;
+    font-size: 14px;
+    /* đưa ra giữa */
+    display: flex;
+    justify-content: center;
+    margin-left:0px;
+}
+
+section{
+min-width: 500px;
+background-color:white ;
+margin-top: 80px;
+border-radius: 14px;
+padding: 40px;
+/* tạo bóng */
+box-shadow: 0px 3px 14px 3px rgb(31, 137, 31);
+}
+
+.info{
+    display: flex;
+    flex-direction: column; 
+}
+
+label{
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+input{
+    margin-top: 20px;
+    /* tự commend lại để tìm điều khác biệt */
+    border: none;
+    /* tạo một dòng màu đen bên dưới */
+    border-bottom: 1px solid black;
+    /* TỰ COMMEND LẠI ĐỂ TÌM SỰ KHÁC BT CHỨ KO BT GIẢI THÍCH */
+    outline: none;
+} 
+button{
+    /* khi đưa chuột vào nút chuottj sẽ biến thành nút ngón tay */
+    cursor: pointer;
+    /* cách di chuyển nút / align self là  */
+    align-self: flex-end;
+    background-color: rgb(71, 234, 249);
+    border: 10px;
+    margin-top: 15px;
+    width: 70px;
+    padding: 10px 20px 10px 20px;
+    width: 110px;
+    border-radius: 20px;
+    color: rgba(17, 98, 139, 0.932);
+    font-weight: 600;
+
+
+}
+button:hover{
+    color: rgb(27, 9, 128);
+    background-color: rgb(115, 153, 240);
+}
+h1{
+    text-align: center;
+    color: rgb(0, 94, 255);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+.container-fluid{
+    border-bottom: 3px solid rgb(22, 245, 253) ;
+    border-top: 3px solid rgba(73, 123, 210, 0.6) ;
+    border-left:4px solid rgba(90, 153, 205, 0.6)  ;
+    border-right:4px solid #27aec399  ;
+    padding: 7px;
+    background-color: rgb(235, 249, 255);
+    
+}
+.button button :hover{
+    color:blue;
+    background-color: rgb(64, 124, 237);
+
+}
+body{
+    font-family: 'Roboto', sans-serif;
+   
+}
+img
+{
+    width: 50px;
+    height: 40px;
+    margin-right:30px;
+    margin-top: 30px;
+    margin-top: 100px;
+}
+body{
+    background-image: url('https://images.pexels.com/photos/1619317/pexels-photo-1619317.jpeg?cs=srgb&dl=pexels-james-wheeler-1619317.jpg&fm=jpg');
+    
+}

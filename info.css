@@ -1,0 +1,25 @@
+*{
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flexbox;
+    text-align: center;
+    background-color: rgb(213, 245, 242);
+    font-family: 'AR One Sans', sans-serif;
+    margin-top: 30px;
+}
+h1{
+    color: rgb(3, 16, 135);
+}
+b{
+    color: rgb(29, 29, 141);
+}
+p{
+    color:rgb(34, 34, 144);
+}
+.size img{
+    width: 60px;
+}
